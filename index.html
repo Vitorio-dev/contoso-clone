@@ -23,7 +23,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style/style.css" />
-
   </head>
   <body>
     <header class="cabecalho">
@@ -72,12 +71,57 @@
                   ><i class="fa-solid fa-gear"></i
                 ></a>
               </li>
-              <li><img src="img/foto.png" alt="foto" /></li>
+              <li><img class="img" src="img/foto.png" alt="foto" /></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+    <main>
+      <section class="sidebar">
+        <nav
+          id="sidebar"
+          class="col-md-3 col-lg-2 d-md-block bg-dark text-white fixed-left"
+        >
+          <div class="position-sticky">
+            <div id="sidebar__opcoes">
+              <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-gears"></i>
+            </div>
+
+            <div id="sidebar__opcoes2">
+              <a class="nav-link text-white" href="#" id="um"
+                ><i class="fa-regular fa-house"></i>
+                <p>Home</p></a
+              >
+
+              <a class="nav-link text-white" id="dois" href="#">
+                <i class="fa-regular fa-plus"></i> About</a
+              >
+            </div>
+            <hr />
+            <ul class="nav flex-column" id="lista">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Global</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Operations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Stakeholders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Market analysis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Suppilers</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+    </main>
     <script src="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="script/opcoes.js"></script>
   </body>
 </html>
