@@ -8,10 +8,22 @@
     <!-- CSS do Bootstrap -->
     <link
       rel="stylesheet"
-      href="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css"
+      href="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css"
     />
     <!-- CSS personalizado -->
-    <link rel="stylesheet" href="fundo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+
   </head>
   <body>
     <header class="cabecalho">
@@ -27,7 +39,9 @@
             <!-- Lista à esquerda (no caso, está vazia) -->
             <ul class="navbar-nav left me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">| Contoso company</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >| Contoso company</a
+                >
               </li>
             </ul>
 
@@ -44,13 +58,19 @@
             <!-- Lista à direita com ícones -->
             <ul class="navbar-nav right mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><img src="img/perfil.png" alt="Perfil" /></a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-regular fa-user"></i
+                ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><img src="img/notificacao.png" alt="Notificação" /></a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-regular fa-bell"></i
+                ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><img src="img/config.png" alt="Config" /></a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-solid fa-gear"></i
+                ></a>
               </li>
               <li><img src="img/foto.png" alt="foto" /></li>
             </ul>
@@ -58,7 +78,6 @@
         </div>
       </nav>
     </header>
-
-    <script src="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
