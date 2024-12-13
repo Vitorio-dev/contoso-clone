@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --cor-de-fundo-principal: rgb(37, 60, 100);
+    --cor-de-fundo-secundaria: rgb(32, 32, 76);
+    --cor-de-fundo-section: rgb(60, 77, 106);
+    --cor-fonte-secundaria: rgb(25, 121, 204);
+    --cor-fonte-principal: rgb(255, 255, 255);
+  }
+  
+  /* Aplica o fundo no header */
+  header.cabecalho {
+    background-color: var(--cor-de-fundo-secundaria);
+    padding: 0.3rem 0; /* Ajuste para a altura do header */
+  }
+  
+  /* Estilo da Navbar */
+  .navbar {
+    background-color: transparent !important; /* Deixe transparente para o fundo do header aparecer */
+    color: var(--cor-fonte-principal) !important;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav.left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navbar-nav.right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Ajustando as listas e os links dentro da navbar */
+  .navbar-nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Tamanho das imagens dentro da navbar */
+  .navbar-nav img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Ajustando a barra de pesquisa */
+  .form-control {
+    max-width: 250px;
+  }
+  
+  /* Estilos para os links da navbar */
+  .navbar-nav .nav-link {
+    color: var(--cor-fonte-principal) !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: var(--cor-fonte-secundaria) !important;
+  }
+  
