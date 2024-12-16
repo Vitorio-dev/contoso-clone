@@ -1,4 +1,29 @@
+.grafics .inforacoes {
+    grid-column: span 2;
+    margin-left: 20px;
+  }
+  
+  .grafics .inforacoes h2 {
+    font-size: 1.2rem;
+    font-weight: 600; 
+    color: var(--cor-fonte-principal); 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .grafics .inforacoes img {
+    height: 30px;
+  }
+  
+  .grafics .inforacoes p {
+    font-size: 0.6rem; 
+    color: var(--cor-fonte-principal); 
+    margin-left: 43px;
+  }
+
 .grafics {
+    margin:10px;
     background-color: var(--cor-de-fundo-section) !important;
     display: grid;
     grid-template-columns: 0.6fr 4fr;
@@ -6,7 +31,7 @@
     padding: 10px;
     border: 2px solid var(--cor-de-contraste);
     border-radius: 10px;
-    height: calc(100vh - 70px); /* Calcula o espaço para evitar rolagem */
+    height: 90vh; 
     box-sizing: border-box;
   }
   
@@ -17,7 +42,6 @@
   
   .right-box {
     display: grid;
-    gap: 10px;
   }
   
   .row {
@@ -38,12 +62,15 @@
      margin-left: 10px;
     background-color: var(--cor-de-fundo-secundaria) !important;
     border-radius: 5px;
-    width: 150px; 
-    height: 100px; 
   }
   
   .grid-item.pequeno{
     width: 150px;
+  }
+  
+  .grid-item.normal {
+    width: 190px;
+    height: 80px;
   }
   
   .grid-item.largo {
@@ -60,7 +87,7 @@
   }
   
   .gridDois div {
-    height: 150px;
+    height: 120px;
   }
   
   .gridTrez div {
