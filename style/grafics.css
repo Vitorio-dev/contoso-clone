@@ -1,0 +1,39 @@
+.grafics {
+    background-color: var(--cor-de-fundo-section) !important;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    height: 600px; 
+    padding: 20px;
+  }
+  
+  .left-box {
+    background-color: var(--cor-de-fundo-secundaria) !important;
+    height: 100%;
+  }
+  
+  .right-box {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .row {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .row:nth-child(1),
+  .row:nth-child(2) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .row:nth-child(3) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid-item {
+    background-color: var(--cor-de-fundo-secundaria) !important;
+    height: 100px;
+  }
+  
