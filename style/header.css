@@ -12,6 +12,13 @@ header.cabecalho {
   align-items: center;
 }
 
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .navbar-nav.left {
   flex: 1;
   display: flex;
@@ -21,6 +28,7 @@ header.cabecalho {
 .navbar-nav.right {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar-nav li {
@@ -47,9 +55,30 @@ header.cabecalho {
   color: var(--cor-fonte-principal) !important;
 }
 
-.navbar-brand img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  object-fit: cover;
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form-control {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .navbar-nav.right {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .form-control {
+    display: none;
+  }
 }

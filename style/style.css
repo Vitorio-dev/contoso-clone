@@ -1,19 +1,24 @@
+/* Importação de estilos separados */
 @import url('header.css');
 @import url('opcoes.css');
 
+/* Reset básico para garantir consistência */
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-    --cor-de-fundo-principal: rgb(37, 60, 100);
-    --cor-de-fundo-secundaria: rgb(32, 32, 76);
-    --cor-de-fundo-section: rgb(60, 77, 106);
-    --cor-fonte-secundaria: #7AC8F6;
-    --cor-fonte-principal: rgb(255, 255, 255);
-  }
-  
-  body {
-    background-color: var(--cor-de-fundo-principal);
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variáveis globais para cores */
+:root {
+  --cor-de-fundo-principal: rgb(37, 60, 100);
+  --cor-de-fundo-secundaria: rgb(32, 32, 76);
+  --cor-de-fundo-section: rgb(60, 77, 106);
+  --cor-fonte-secundaria: #7AC8F6;
+  --cor-fonte-principal: rgb(255, 255, 255);
+}
+
+/* Estilo base do body */
+body {
+  background-color: var(--cor-de-fundo-principal);
+}
