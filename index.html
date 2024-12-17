@@ -125,13 +125,55 @@
           </h2>
           <p>last data Reload 5/23/2024 1:58:01 PM</p>
         </div>
-        <div class="left-box"></div>
+        <div class="left-box">
+          <div class="filter">
+            <i class="fa-solid fa-filter"></i>
+            <p>Filter</p>
+          </div>
+          <hr />
+          <div class="label__option">
+            <label for="inputTipo" class="form-label">Ano</label>
+            <select id="inputTipo" class="form-select" required>
+              <option value="" selected disabled></option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+              <option>2023</option>
+            </select>
+            <label for="inputTipo" class="form-label">Periodo</label>
+            <select id="inputTipo" class="form-select" required>
+              <option value="" selected disabled></option>
+              <option>mês</option>
+              <option>Trimestre</option>
+              <option>Semetre</option>
+            </select>
+            <label for="inputTipo" class="form-label">Ordem</label>
+            <select id="inputTipo" class="form-select" required>
+              <option value="" selected disabled> </option>
+              <option>Crescentre</option>
+              <option>Decrescente</option>
+            </select>
+            </div>
+        </div>
         <div class="right-box d-grid">
           <div class="row d-grid gridUm">
-            <div class="grid-item normal"></div>
-            <div class="grid-item normal"></div>
-            <div class="grid-item normal"></div>
-            <div class="grid-item normal"></div>
+            <div class="grid-item normal chart-container">
+              <div class="chart-bar" style="height: 70%;"></div>
+              <p class="chart-label">2019</p>
+            </div>
+            <div class="grid-item normal chart-container">
+              <div class="chart-bar" style="height: 50%;"></div>
+              <p class="chart-label">2020</p>
+            </div>
+            <div class="grid-item normal chart-container">
+              <div class="chart-bar" style="height: 60%;"></div>
+              <p class="chart-label">2021</p>
+            </div>
+            <div class="grid-item normal chart-container">
+              <div class="chart-bar" style="height: 90%;"></div>
+              <p class="chart-label">2022</p>
+            </div>
           </div>
           <div class="row d-grid gridDois">
             <div class="grid-item pequeno central"></div>
@@ -149,5 +191,6 @@
     </main>
     <script src="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     <script src="script/opcoes.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
