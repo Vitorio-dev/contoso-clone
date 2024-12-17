@@ -38,15 +38,17 @@ document.addEventListener("DOMContentLoaded", () =>{
         grafico.innerHTML = "";
 
         dadosAno.forEach(dado => {
-          const alturaBarra = (dado.valor / maiorValor) * 100; // Altura proporcional
+          const alturaBarra = (dado.valor / maiorValor) * 100;
     
           const bar = document.createElement("div");
           bar.classList.add("bar");
           bar.style.height = `${alturaBarra}%`;
+          bar.style.width = `20px`
           bar.innerHTML = `<span>${dado.valor.toFixed(2)}</span>`;
-    
+        
           const label = document.createElement("div");
           label.classList.add("bar-label");
+          label.style.display = `none`;
           label.textContent = dado.mes;
     
           grafico.appendChild(bar);

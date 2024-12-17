@@ -25,41 +25,6 @@
         "valor": 5.41
     },
     {
-        "ano": 2019,
-        "mes": "Junho",
-        "valor": 4.4
-    },
-    {
-        "ano": 2019,
-        "mes": "Julho",
-        "valor": 4.97
-    },
-    {
-        "ano": 2019,
-        "mes": "Agosto",
-        "valor": 4.26
-    },
-    {
-        "ano": 2019,
-        "mes": "Setembro",
-        "valor": 4.38
-    },
-    {
-        "ano": 2019,
-        "mes": "Outubro",
-        "valor": 4.94
-    },
-    {
-        "ano": 2019,
-        "mes": "Novembro",
-        "valor": 3.64
-    },
-    {
-        "ano": 2019,
-        "mes": "Dezembro",
-        "valor": 5.04
-    },
-    {
         "ano": 2020,
         "mes": "Janeiro",
         "valor": 3.57
@@ -84,41 +49,7 @@
         "mes": "Maio",
         "valor": 4.92
     },
-    {
-        "ano": 2020,
-        "mes": "Junho",
-        "valor": 3.83
-    },
-    {
-        "ano": 2020,
-        "mes": "Julho",
-        "valor": 4.91
-    },
-    {
-        "ano": 2020,
-        "mes": "Agosto",
-        "valor": 5.18
-    },
-    {
-        "ano": 2020,
-        "mes": "Setembro",
-        "valor": 4.51
-    },
-    {
-        "ano": 2020,
-        "mes": "Outubro",
-        "valor": 5.4
-    },
-    {
-        "ano": 2020,
-        "mes": "Novembro",
-        "valor": 4.89
-    },
-    {
-        "ano": 2020,
-        "mes": "Dezembro",
-        "valor": 4.15
-    },
+  
     {
         "ano": 2021,
         "mes": "Janeiro",
@@ -150,36 +81,6 @@
         "valor": 4.93
     },
     {
-        "ano": 2021,
-        "mes": "Julho",
-        "valor": 3.65
-    },
-    {
-        "ano": 2021,
-        "mes": "Agosto",
-        "valor": 4.6
-    },
-    {
-        "ano": 2021,
-        "mes": "Setembro",
-        "valor": 3.99
-    },
-    {
-        "ano": 2021,
-        "mes": "Outubro",
-        "valor": 3.95
-    },
-    {
-        "ano": 2021,
-        "mes": "Novembro",
-        "valor": 5.13
-    },
-    {
-        "ano": 2021,
-        "mes": "Dezembro",
-        "valor": 4.92
-    },
-    {
         "ano": 2022,
         "mes": "Janeiro",
         "valor": 4.34
@@ -203,41 +104,6 @@
         "ano": 2022,
         "mes": "Maio",
         "valor": 3.85
-    },
-    {
-        "ano": 2022,
-        "mes": "Junho",
-        "valor": 4.89
-    },
-    {
-        "ano": 2022,
-        "mes": "Julho",
-        "valor": 5.31
-    },
-    {
-        "ano": 2022,
-        "mes": "Agosto",
-        "valor": 4.12
-    },
-    {
-        "ano": 2022,
-        "mes": "Setembro",
-        "valor": 4.45
-    },
-    {
-        "ano": 2022,
-        "mes": "Outubro",
-        "valor": 4.36
-    },
-    {
-        "ano": 2022,
-        "mes": "Novembro",
-        "valor": 4.35
-    },
-    {
-        "ano": 2022,
-        "mes": "Dezembro",
-        "valor": 4.75
     },
     {
         "ano": 2023,
@@ -266,37 +132,7 @@
     },
     {
         "ano": 2023,
-        "mes": "Junho",
-        "valor": 3.94
-    },
-    {
-        "ano": 2023,
-        "mes": "Julho",
-        "valor": 4.93
-    },
-    {
-        "ano": 2023,
-        "mes": "Agosto",
-        "valor": 4.33
-    },
-    {
-        "ano": 2023,
-        "mes": "Setembro",
-        "valor": 4.19
-    },
-    {
-        "ano": 2023,
-        "mes": "Outubro",
-        "valor": 3.66
-    },
-    {
-        "ano": 2023,
-        "mes": "Novembro",
-        "valor": 4.99
-    },
-    {
-        "ano": 2023,
-        "mes": "Dezembro",
-        "valor": 5.08
+        "mes": "julho",
+        "valor": 3.96
     }
 ]
