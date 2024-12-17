@@ -1,7 +1,8 @@
 
 @import url('header.css');
 @import url('opcoes.css');
-@import url('grafics.css');
+@import url('main.css');
+@import url('graficos.css');
 
 * {
   margin: 0;

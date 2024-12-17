@@ -131,15 +131,15 @@
             <p>Filter</p>
           </div>
           <hr />
-          <div class="label__option">
-            <label for="inputTipo" class="form-label">Ano</label>
-            <select id="inputTipo" class="form-select" required>
+          <div class="label__option filter-container">
+            <label for="ano" class="form-label">Ano</label>
+            <select id="ano" class="form-select" required>
               <option value="" selected disabled></option>
-              <option>2019</option>
+              <!-- <option>2019</option>
               <option>2020</option>
               <option>2021</option>
               <option>2022</option>
-              <option>2023</option>
+              <option>2023</option> -->
             </select>
             <label for="inputTipo" class="form-label">Periodo</label>
             <select id="inputTipo" class="form-select" required>
@@ -154,6 +154,7 @@
               <option>Crescentre</option>
               <option>Decrescente</option>
             </select>
+            <button id="gerarGrafico">Gerar Gráfico</button>
             </div>
         </div>
         <div class="right-box d-grid">
@@ -184,7 +185,7 @@
           <div class="row d-grid gridTrez">
             <div class="grid-item pequeno"></div>
             <div class="grid-item maior"></div>
-            <div class="grid-item largo"></div>
+            <div class="grid-item largo">  <div class="chart-container" id="grafico"></div></div>
           </div>
         </div>
       </section>

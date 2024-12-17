@@ -175,7 +175,7 @@
 
 .chart-bar {
     width: 30px;
-    background-color: #4caf50;
+    background-color: var(--cor-fonte-secundaria);
     margin: 0 10px;
     transition: height 0.3s ease-in-out;
 }
