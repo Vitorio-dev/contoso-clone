@@ -1,9 +1,9 @@
 #sidebar {
   position: fixed;
-  top: 56px; /* Abaixo do cabeçalho */
+  top: 56px; 
   left: 0;
   width: 250px;
-  height: calc(100vh - 56px); /* Tamanho da altura da sidebar, ajustado para não ultrapassar o topo */
+  height: calc(100vh - 56px); 
   background-color: var(--cor-de-fundo-section) !important;
   color: var(--cor-fonte-secundaria) !important;
   padding-top: 20px;
@@ -17,9 +17,10 @@
   padding: 10px 20px;
   font-size: 20px;
   position: sticky;
-  top: 0; /* Fixa as opções no topo da sidebar */
+  top: 0; 
   background-color: var(--cor-de-fundo-section) !important;
-  z-index: 1010; /* Fixa as opções acima do conteúdo da sidebar */
+  z-index: 1010;
+  margin-bottom: 20px 
 }
 
 #sidebar__opcoes2 #um {
@@ -28,6 +29,14 @@
   margin-left: 25px;
 }
 
+#sidebar__opcoes .fa-bars {
+  cursor: pointer;
+}
+
+#sidebar__opcoes2 .fa-house {
+  margin-top: 3px;
+  margin-left: 4px;
+}
 #sidebar__opcoes2 .fa-regular {
   margin-top: 5px;
   margin-left: 5px;
