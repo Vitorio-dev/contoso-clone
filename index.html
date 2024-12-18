@@ -135,11 +135,6 @@
             <label for="ano" class="form-label">Ano</label>
             <select id="ano" class="form-select" required>
               <option value="" selected disabled></option>
-              <!-- <option>2019</option>
-              <option>2020</option>
-              <option>2021</option>
-              <option>2022</option>
-              <option>2023</option> -->
             </select>
             <label for="inputTipo" class="form-label">Periodo</label>
             <select id="inputTipo" class="form-select" required>
@@ -150,48 +145,46 @@
             </select>
             <label for="inputTipo" class="form-label">Ordem</label>
             <select id="inputTipo" class="form-select" required>
-              <option value="" selected disabled> </option>
+              <option value="" selected disabled></option>
               <option>Crescentre</option>
               <option>Decrescente</option>
             </select>
             <button class="gerarGrafico" id="gerarGrafico">Gerar</button>
-            </div>
+          </div>
         </div>
         <div class="right-box d-grid">
           <div class="row d-grid gridUm">
             <div class="grid-item normal chart-container">
-              <div class="chart-bar" style="height: 70%;"></div>
+              <div class="chart-bar" style="height: 70%"></div>
               <p class="chart-label">2019</p>
             </div>
             <div class="grid-item normal chart-container">
-              <div class="chart-bar" style="height: 50%;"></div>
+              <div class="chart-bar" style="height: 50%"></div>
               <p class="chart-label">2020</p>
             </div>
             <div class="grid-item normal chart-container">
-              <div class="chart-bar" style="height: 60%;"></div>
+              <div class="chart-bar" style="height: 60%"></div>
               <p class="chart-label">2021</p>
             </div>
             <div class="grid-item normal chart-container">
-              <div class="chart-bar" style="height: 90%;"></div>
+              <div class="chart-bar" style="height: 90%"></div>
               <p class="chart-label">2022</p>
             </div>
           </div>
-          <div class="row d-grid gridDois">
-            <div class="grid-item pequeno central"></div>
-            <div class="grid-item pequeno central"></div>
-            <div class="grid-item pequeno central"></div>
-            <div class="grid-item largo"></div>
+          <div class="row d-grid gridDois" id="gridCentral">
           </div>
           <div class="row d-grid gridTrez">
             <div class="grid-item pequeno"></div>
             <div class="grid-item maior"></div>
-            <div class="grid-item largo"><div class="chart-container" id="grafico"></div></div>
+            <div class="grid-item largo">
+              <div class="chart-container" id="grafico"></div>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <script src="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
-    <script src="script/opcoes.js"></script>
     <script src="script.js"></script>
+    <script src="script/body.js"></script>
   </body>
 </html>

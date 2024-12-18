@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
     let dados = [];
 
-    fetch ("dolar_data.json")
+    fetch ("./dados/dolar_data.json")
     .then(response => response.json())
     .then(json =>{
         dados = json;
@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", () =>{
   
         const maiorValor = Math.max(...dadosAno.map(d => d.valor));
     
- 
         grafico.innerHTML = "";
 
         dadosAno.forEach(dado => {
