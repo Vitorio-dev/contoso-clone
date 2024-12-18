@@ -3,11 +3,9 @@ document.addEventListener("DOMContentLoaded",()=>{
     const gridCentral = document.getElementById("gridCentral");
     const gridFinal = document.getElementById("gridFinal");
 
-   
     gridPrimario.innerHTML = ''
     gridCentral.innerHTML = ''
     gridFinal.innerHTML=''
-
 
     for (let criacao = 0; criacao < 4; criacao++) {
 

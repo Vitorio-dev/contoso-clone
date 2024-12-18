@@ -1,138 +1,55 @@
 [
     {
-        "ano": 2019,
-        "mes": "Janeiro",
-        "valor": 5.12
+      "ano": 2019,
+      "meses": [
+        { "mes": "Janeiro", "valor": 5.12 },
+        { "mes": "Fevereiro", "valor": 4.14 },
+        { "mes": "Março", "valor": 3.62 },
+        { "mes": "Abril", "valor": 3.58 },
+        { "mes": "Maio", "valor": 5.41 }
+      ]
     },
     {
-        "ano": 2019,
-        "mes": "Fevereiro",
-        "valor": 4.14
+      "ano": 2020,
+      "meses": [
+        { "mes": "Janeiro", "valor": 3.57 },
+        { "mes": "Fevereiro", "valor": 4.22 },
+        { "mes": "Março", "valor": 3.62 },
+        { "mes": "Abril", "valor": 5.25 },
+        { "mes": "Maio", "valor": 4.92 }
+      ]
     },
     {
-        "ano": 2019,
-        "mes": "Mar\u00e7o",
-        "valor": 3.62
+      "ano": 2021,
+      "meses": [
+        { "mes": "Janeiro", "valor": 5.17 },
+        { "mes": "Fevereiro", "valor": 4.4 },
+        { "mes": "Março", "valor": 5.04 },
+        { "mes": "Abril", "valor": 5.45 },
+        { "mes": "Maio", "valor": 5.27 },
+        { "mes": "Junho", "valor": 4.93 }
+      ]
     },
     {
-        "ano": 2019,
-        "mes": "Abril",
-        "valor": 3.58
+      "ano": 2022,
+      "meses": [
+        { "mes": "Janeiro", "valor": 4.34 },
+        { "mes": "Fevereiro", "valor": 4.76 },
+        { "mes": "Março", "valor": 5.08 },
+        { "mes": "Abril", "valor": 4.54 },
+        { "mes": "Maio", "valor": 3.85 }
+      ]
     },
     {
-        "ano": 2019,
-        "mes": "Maio",
-        "valor": 5.41
-    },
-    {
-        "ano": 2020,
-        "mes": "Janeiro",
-        "valor": 3.57
-    },
-    {
-        "ano": 2020,
-        "mes": "Fevereiro",
-        "valor": 4.22
-    },
-    {
-        "ano": 2020,
-        "mes": "Mar\u00e7o",
-        "valor": 3.62
-    },
-    {
-        "ano": 2020,
-        "mes": "Abril",
-        "valor": 5.25
-    },
-    {
-        "ano": 2020,
-        "mes": "Maio",
-        "valor": 4.92
-    },
-  
-    {
-        "ano": 2021,
-        "mes": "Janeiro",
-        "valor": 5.17
-    },
-    {
-        "ano": 2021,
-        "mes": "Fevereiro",
-        "valor": 4.4
-    },
-    {
-        "ano": 2021,
-        "mes": "Mar\u00e7o",
-        "valor": 5.04
-    },
-    {
-        "ano": 2021,
-        "mes": "Abril",
-        "valor": 5.45
-    },
-    {
-        "ano": 2021,
-        "mes": "Maio",
-        "valor": 5.27
-    },
-    {
-        "ano": 2021,
-        "mes": "Junho",
-        "valor": 4.93
-    },
-    {
-        "ano": 2022,
-        "mes": "Janeiro",
-        "valor": 4.34
-    },
-    {
-        "ano": 2022,
-        "mes": "Fevereiro",
-        "valor": 4.76
-    },
-    {
-        "ano": 2022,
-        "mes": "Mar\u00e7o",
-        "valor": 5.08
-    },
-    {
-        "ano": 2022,
-        "mes": "Abril",
-        "valor": 4.54
-    },
-    {
-        "ano": 2022,
-        "mes": "Maio",
-        "valor": 3.85
-    },
-    {
-        "ano": 2023,
-        "mes": "Janeiro",
-        "valor": 5.09
-    },
-    {
-        "ano": 2023,
-        "mes": "Fevereiro",
-        "valor": 4.51
-    },
-    {
-        "ano": 2023,
-        "mes": "Mar\u00e7o",
-        "valor": 5.07
-    },
-    {
-        "ano": 2023,
-        "mes": "Abril",
-        "valor": 5.16
-    },
-    {
-        "ano": 2023,
-        "mes": "Maio",
-        "valor": 3.96
-    },
-    {
-        "ano": 2023,
-        "mes": "julho",
-        "valor": 3.96
+      "ano": 2023,
+      "meses": [
+        { "mes": "Janeiro", "valor": 5.09 },
+        { "mes": "Fevereiro", "valor": 4.51 },
+        { "mes": "Março", "valor": 5.07 },
+        { "mes": "Abril", "valor": 5.16 },
+        { "mes": "Maio", "valor": 3.96 },
+        { "mes": "Julho", "valor": 3.96 }
+      ]
     }
-]
+  ]
+  

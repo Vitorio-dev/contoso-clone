@@ -21,39 +21,44 @@ document.addEventListener("DOMContentLoaded", () =>{
   .catch(err => console.error("erro ao carregar o arquivo json", err));
      
   
-      const gerarGrafico = () => {
-        const anoSelecionado = parseInt(anoSelect.value);
-        if (!anoSelecionado) {
-          alert("Selecione um ano válido!");
-          return;
-        }
-    
-     
-        const dadosAno = dados.filter(d => d.ano === anoSelecionado);
-    
+  const gerarGrafico = () => {
+    const anoSelecionado = parseInt(anoSelect.value); 
+    if (!anoSelecionado) {
+      alert("Selecione um ano válido!");
+      return;
+    }
   
-        const maiorValor = Math.max(...dadosAno.map(d => d.valor));
-    
-        grafico.innerHTML = "";
-
-        dadosAno.forEach(dado => {
-          const alturaBarra = (dado.valor / maiorValor) * 100;
-    
-          const bar = document.createElement("div");
-          bar.classList.add("bar");
-          bar.style.height = `${alturaBarra}%`;
-          bar.style.width = `20px`
-          bar.innerHTML = `<span>${dado.valor.toFixed(2)}</span>`;
-        
-          const label = document.createElement("div");
-          label.classList.add("bar-label");
-          label.style.display = `none`;
-          label.textContent = dado.mes;
-    
-          grafico.appendChild(bar);
-          grafico.appendChild(label);
-        });
-      };
+    const dadosAno = dados.find(d => d.ano === anoSelecionado);
+    if (!dadosAno || !dadosAno.meses.length) {
+      alert("Não há dados para o ano selecionado!");
+      return;
+    }
+  
+    const mesesAno = dadosAno.meses;
+  
+    const maiorValor = Math.max(...mesesAno.map(m => m.valor));
+  
+    grafico.innerHTML = "";
+  
+    mesesAno.forEach(mes => {
+      const alturaBarra = (mes.valor / maiorValor) * 100;
+  
+      const bar = document.createElement("div");
+      bar.classList.add("bar");
+      bar.style.height = `${alturaBarra}%`;
+      bar.style.width = `20px`; 
+      bar.innerHTML = `<span>${mes.valor.toFixed(2)}</span>`;
+  
+   
+      const label = document.createElement("div");
+      label.classList.add("bar-label");
+      label.textContent = mes.mes;
+  
+      grafico.appendChild(bar);
+      grafico.appendChild(label);
+    });
+  };
+  
 
     gerarGraficoBtn.addEventListener("click", gerarGrafico);
 })  
