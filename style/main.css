@@ -42,6 +42,9 @@
     position: sticky;
     top: 0;
     padding: 10px;
+    z-index: 10;
+    max-height: 90vh; 
+    overflow-y: auto;
 }
 
 .left-box .label__option {
@@ -166,6 +169,12 @@
 
 
 @media (min-width: 1200px) {
+    .left-box {
+        position: relative; /* Muda para 'relative' em telas menores */
+        z-index: 5; /* Menor que o da .right-box para evitar sobreposição */
+        width: 100%; /* A .left-box ocupará toda a largura disponível */
+        padding: 10px;}
+    
     .grafics {
         grid-template-columns: 0.6fr 5fr;
     }
@@ -202,6 +211,12 @@
 }
 
 @media (max-width: 1100px) {
+    .left-box {
+        position: relative;
+        z-index: 5; 
+        width: 100%;
+        padding: 10px;
+    }
     .grafics {
         grid-template-columns: 1fr;
     }
@@ -238,6 +253,13 @@
 }
 
 @media (max-width: 768px) {
+
+    .left-box {
+        position: relative;
+        z-index: 5; 
+        width: 100%;
+        padding: 10px;
+    }
     .grafics {
         grid-template-columns: 1fr;
     }
@@ -277,6 +299,14 @@
 }
 
 @media (max-width: 576px) {
+
+    .left-box {
+        position: relative;
+        z-index: 5; 
+        width: 100%;
+        padding: 10px;
+    }
+    
     .grafics {
         grid-template-columns: 1fr;
     }
@@ -313,4 +343,5 @@
     .grid-item.maior {
         width: 100%;
     }
+
 }
